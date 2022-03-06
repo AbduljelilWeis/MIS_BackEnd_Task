@@ -1,0 +1,170 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 75%;
+    margin: 0 auto;
+  }
+  
+  /*===================== navigation bar ================================*/
+  ul {
+    list-style-type: none;
+    list-style-position: outside;
+    background-color: yellow;
+    color: #DADFDD !important;
+  }
+  
+  #nav-list li {
+    font-weight: bold;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 15px;
+    cursor: pointer;
+  }
+  
+  ul li:hover {
+    background-color: #57585c;
+  }
+  
+  ul li a {
+    color: #ffffff;
+  }
+  
+  ul li:hover>a {
+    color: #7b8bf3;
+  }
+  
+  #nav {
+    background-color: #616368;
+    color: #DADFDD;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 2em;
+  }
+  
+  #logo {
+    width: 15%;
+    float: left;
+  }
+  
+  #nav-list {
+    margin: auto;
+  }
+  
+  #nav-elem {
+    width: 40%;
+    float: right;
+  }
+  /*===================== navigation bar ================================*/
+  
+  .table-sec{
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  h2{
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .separator{
+    height: 100px;
+  }
+  .img-desc{
+    margin: 0 0 0 50px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1em;
+  }
+  .header-desc{
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+  #footer {
+    position: fixed;
+    bottom: 0;
+    width: 75%;
+    background-color: #616368;
+    color: #DADFDD;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 2em;
+  }
+  
+  
+  /*================================================ HD Style ======================================================*/
+  @media (max-width: 1500px) {
+    body {
+        max-width: 85%;
+    }
+  
+    #footer {
+        width: 85%;
+    }
+  
+    #nav-elem {
+        width: 50%;
+    }
+  }
+  /*================================================ HD Style ======================================================*/
+  
+  
+  /*================================================ Tablet Style ======================================================*/
+  @media (max-width: 950px) {
+    body {
+        max-width: 100%;
+    }
+    #footer {
+        width: 100%;
+    }
+    #nav-elem {
+        width: 50%;
+    }
+    .form{
+        width: 100%;
+    }
+  }
+  
+  @media (max-width: 850px) {
+    #nav-elem {
+        width: 70%;
+    }
+    #logo-img{
+      width: 130%;
+    }
+  }
+  
+  /*================================================ Tablet Style ======================================================*/
+  
+  
+  
+  
+  /*================================================ Phone Style ======================================================*/
+  @media (max-width: 600px) {
+    #nav-elem {
+        width: 85%;
+    }
+    #logo-img{
+      width: 120%;
+    }
+  }
+  /*================================================ Phone Style ======================================================*/
+  
+
+
+
+
+
+
+
+
