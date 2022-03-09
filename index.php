@@ -1,11 +1,15 @@
 <?php
 include('header.php');
 
+
 ?>
 
 
 <section id="content">
     <div id="loop">
+        <h1><?php if (isset($_GET['msg'])) {
+                echo $_GET['msg'] . "You Are Loggedin";
+            }       ?></h1>
         <h1>Home Page</h1>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis amet dicta perspiciatis at, vel ullam
         odit facere. Repudiandae, dicta delectus facere eos placeat ad, suscipit animi incidunt esse illum

@@ -15,16 +15,17 @@
     <nav id="nav" class="">
         <div class="wrapper ">
             <div id="logo">
-                <a href="/scholarshipCourse/FirstLessonTask">
-                    <img src="/scholarshipCourse/FirstLessonTask/img/Logo150px.png" alt="Logo" id="logo-img">
+                <a href="/abduljelilsTask">
+                    <img src="/abduljelilsTask/img/Logo150px.png" alt="Logo" id="logo-img">
                 </a>
             </div>
             <div id="nav-elem">
                 <ul id="nav-list">
-                    <li onclick="location.href='/scholarshipCourse/FirstLessonTask'"><a href="/scholarshipCourse/FirstLessonTask">Home</a></li>
-                    <li onclick="location.href='/scholarshipCourse/FirstLessonTask/about.php'"><a href="/scholarshipCourse/FirstLessonTask/about.php">About Us</a></li>
-                    <li onclick="location.href='/scholarshipCourse/FirstLessonTask/blog'"><a href="/scholarshipCourse/FirstLessonTask/blog">Find Blogs</a></li>
-                    <li onclick="location.href='/scholarshipCourse/FirstLessonTask/login'"><a href="/scholarshipCourse/FirstLessonTask/login">Login</a></li>
+                    <li onclick="location.href='/abduljelilsTask'"><a href="/abduljelilsTask">Home</a></li>
+                    <li onclick="location.href='/abduljelilsTask/about.php'"><a href="/abduljelilsTask/about.php">About Us</a></li>
+                    <li onclick="location.href='/abduljelilsTask/blog'"><a href="/abduljelilsTask/blog">Find Blogs</a></li>
+                    <li onclick="location.href='/abduljelilsTask/login'"><a href="/abduljelilsTask/login">Login</a></li>
+                    <li onclick="location.href='/abduljelilsTask/signUp'"><a href="/abduljelilsTask/signUp">SignUp</a></li>
                 </ul>
             </div>
         </div>
