@@ -1,170 +1,270 @@
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 75%;
-    margin: 0 auto;
-  }
-  
-  /*===================== navigation bar ================================*/
-  ul {
-    list-style-type: none;
-    list-style-position: outside;
-    background-color: yellow;
-    color: #DADFDD !important;
-  }
-  
-  #nav-list li {
-    font-weight: bold;
-    float: left;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 500;
-    padding: 0 15px;
-    cursor: pointer;
-  }
-  
-  ul li:hover {
-    background-color: #57585c;
-  }
-  
-  ul li a {
-    color: #ffffff;
-  }
-  
-  ul li:hover>a {
-    color: #7b8bf3;
-  }
-  
-  #nav {
-    background-color: #616368;
-    color: #DADFDD;
-    height: 100px;
-    text-align: center;
-    line-height: 100px;
-    font-size: 2em;
-  }
-  
-  #logo {
-    width: 15%;
-    float: left;
-  }
-  
-  #nav-list {
-    margin: auto;
-  }
-  
-  #nav-elem {
-    width: 40%;
-    float: right;
-  }
-  /*===================== navigation bar ================================*/
-  
-  
-.form-sec{
-    max-width: 50%;
-    margin: 0 auto;
-}
-h2{
-    text-align: center;
-    margin: 15px 0;
-}
-.signup-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-.form{
-    width: 70%; 
-    position: relative;
-}
-input{
-    margin: 15px 0;
-    text-align: center;
-}
-button{
-    width: 120px;
-    position: absolute;
-    left: 50%;
-    margin-left: -60px;
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 75%;
+  margin: 0 auto;
 }
 
+/*===================== navigation bar ================================*/
+ul {
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+#nav-list ul {
+  color: #dadfdd !important;
+}
+
+#nav-list li {
+  font-weight: bold;
+  float: left;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+ul li:hover {
+  background-color: #57585c;
+}
+
+ul li a {
+  color: #ffffff;
+}
+
+ul li:hover > a {
+  color: #7b8bf3;
+}
+
+#nav {
+  background-color: #616368;
+  color: #dadfdd;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 2em;
+}
+
+#logo {
+  width: 15%;
+  float: left;
+}
+
+#nav-list {
+  margin: auto;
+}
+
+#nav-elem {
+  width: 40%;
+  float: right;
+}
+/*===================== navigation bar ================================*/
+
+.form-sec {
+  max-width: 50%;
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
+  margin: 15px 0;
+}
+.signup-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.form {
+  width: 70%;
+  position: relative;
+}
+input {
+  margin: 15px 0;
+  text-align: center;
+}
+button {
+  width: 120px;
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.signuperror {
+  padding-top: 14px;
+  font-family: arial;
+  font-size: 16px !important;
+  color: red;
+  text-align: center;
+}
+
+/*=========================== footer ===========================*/
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 75%;
+  text-align: center;
+  background-color: #616368;
+  color: #dadfdd;
+}
+
+.fix-row {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.icons-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+}
+#social-icons {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+#social-icons li {
+  /*position: relative;
+     display: block; */
+  color: rgb(255, 255, 255);
+  background: #333333;
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+#social-icons li:nth-child(1):hover {
+  color: #456cba;
+  box-shadow: 0 0 10px 10px #4267b2;
+  text-shadow: 0 0 30px #4267b2;
+}
+#social-icons li:nth-child(2):hover {
+  color: #26a4f2;
+  box-shadow: 0 0 10px 10px #1da1f2;
+  text-shadow: 0 0 30px #1da1f2;
+}
+#social-icons li:nth-child(3):hover {
+  color: #e34133;
+  box-shadow: 0 0 10px 10px #e34133;
+  text-shadow: 0 0 30px #e34133;
+}
+#social-icons li:nth-child(4):hover {
+  color: #2a6cbb;
+  box-shadow: 0 0 10px 10px #2867b2;
+  text-shadow: 0 0 15px #2867b2;
+}
+#social-icons li:nth-child(5):hover {
+  color: #ff1a1a;
+  box-shadow: 0 0 10px 10px #ff0000;
+  text-shadow: 0 0 15px #ff0000;
+}
+#logo2:hover {
+  color: #1bb5d7;
+  box-shadow: 0 0 10px 5px #1bb5d7;
+  text-shadow: 0 0 30px #1bb5d7;
+}
+/*Footer Useful Links ============================================================*/
+
+h4.uppercase {
+  text-transform: uppercase;
+}
+ul#footerUsefulLink {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+ul#footerUsefulLink li {
+  cursor: pointer;
+}
+ul#footerUsefulLink li:hover,
+.usefulLinksIcons a {
+  color: #dadfdd;
+}
+
+@media all and (min-width: 768px) {
+  #bottom-right {
+    display: inline-block;
+  }
+}
+
+.dark-button {
+  font-size: 12px;
+  height: 100%;
+  margin-left: 30px;
+  padding: 20px;
+  color: #fff;
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark {
+  background-color: #000 !important;
+}
+
+/*=========================== footer ===========================*/
+
+/*================================================ HD Style ======================================================*/
+@media (max-width: 1500px) {
+  body {
+    max-width: 85%;
+  }
 
   #footer {
-    position: fixed;
-    bottom: 0;
-    width: 75%;
-    background-color: #616368;
-    color: #DADFDD;
-    height: 100px;
-    text-align: center;
-    line-height: 100px;
-    font-size: 2em;
+    width: 85%;
   }
-  
-  
-  /*================================================ HD Style ======================================================*/
-  @media (max-width: 1500px) {
-    body {
-        max-width: 85%;
-    }
-  
-    #footer {
-        width: 85%;
-    }
-  
-    #nav-elem {
-        width: 50%;
-    }
+
+  #nav-elem {
+    width: 50%;
   }
-  /*================================================ HD Style ======================================================*/
-  
-  
-  /*================================================ Tablet Style ======================================================*/
-  @media (max-width: 950px) {
-    body {
-        max-width: 100%;
-    }
-    #footer {
-        width: 100%;
-    }
-    #nav-elem {
-        width: 50%;
-    }
-    .form{
-        width: 100%;
-    }
+}
+/*================================================ HD Style ======================================================*/
+
+/*================================================ Tablet Style ======================================================*/
+@media (max-width: 950px) {
+  body {
+    max-width: 100%;
   }
-  
-  @media (max-width: 850px) {
-    #nav-elem {
-        width: 70%;
-    }
-    #logo-img{
-      width: 130%;
-    }
+  #footer {
+    width: 100%;
   }
-  
-  /*================================================ Tablet Style ======================================================*/
-  
-  
-  
-  
-  /*================================================ Phone Style ======================================================*/
-  @media (max-width: 600px) {
-    #nav-elem {
-        width: 85%;
-    }
-    #logo-img{
-      width: 120%;
-    }
+  #nav-elem {
+    width: 50%;
   }
-  /*================================================ Phone Style ======================================================*/
-  
+  .form {
+    width: 100%;
+  }
+}
 
+@media (max-width: 850px) {
+  #nav-elem {
+    width: 70%;
+  }
+  #logo-img {
+    width: 130%;
+  }
+}
 
+/*================================================ Tablet Style ======================================================*/
 
-
-
-
-
-
+/*================================================ Phone Style ======================================================*/
+@media (max-width: 600px) {
+  #nav-elem {
+    width: 85%;
+  }
+  #logo-img {
+    width: 120%;
+  }
+}
+/*================================================ Phone Style ======================================================*/

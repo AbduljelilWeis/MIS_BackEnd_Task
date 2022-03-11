@@ -1,4 +1,5 @@
 <?php
+$_GET['title'] = "About US Page";
 include('header.php');
 
 ?>
@@ -17,10 +18,7 @@ include('header.php');
         expedita aut inventore accusantium eum qui provident sit facilis consequuntur!
     </div>
 </section>
-<footer id="footer">
-    FOOTER
-</footer>
+<?php
+require "footer.php";
 
-</body>
-
-</html>
+?>
